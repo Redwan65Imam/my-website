@@ -16,17 +16,139 @@ display:flex;
 }
 .half-width {
 width: 50%;
-padding-left:5%;
+padding-left: 5%;
+
  }
 
 .half-width img  {
-width: 75% ;
+width: 70% ;
 }
 
-.btn {
-background-image: linear-gradient( orange,orangered);
-font-direction: none;
-padding:6px;
+.btn  {
+
+text-decoration: none;
+color: red;
+background-color: rgb(252, 154, 8) ;
+padding: 10px;
+border-radius: 10px;
+font-size: 20px;
+}
+.btn:animation {
+width: 100px;
+height: 100px;
+
+}
+
+
+.btn:hover {
+animation-name: example;
+
+animation-duration: 4s;
+background-color: chartreuse;
+
+translate: 2px; 
+
+}
+marquee {
+color: lawngreen;
+background-color: rgb(0, 0, 0);
+border-radius: 100px;
+padding: 5px;
+}
+
+marquee:hover {
+
+    background-color: rgb(253, 0, 0);
+}
+hr {
+border: rgb(252, 246, 246) 2px solid;
+border-radius: 10px;
+padding: 20px; 
+}
+hr:hover {
+
+background-color: rgb(17, 0, 255);
+
+}
+.half-red1 img {
+
+width: 40%;
+
+}
+.section work 
+{
+
+display: flex;
+
+}
+
+
+.half-last {
+    width: 50%;
+    padding-left: 5%;
+border-left :  10px solid red;
+margin: 10px;
+box-shadow: 10px  10px 10px 5px rgb(5, 5, 5);
+}
+
+
+
+}
+.work h1 {
+text-align: right;
+
+
+}
+.half-last  h3 {
+
+text-align: left;
+text-shadow: 1px 1px rgb(248, 6, 87);
+}
+.half-last h1 {
+
+    text-align: left;
+}
+
+.av  {
+display: flex;
+background-color:grey ;
+border-radius: 30px;
+box-shadow: rgb(3, 2, 2) 10px 10px 5px ;
+
+}
+
+
+.audio {
+width: 10px;
+
+
+
+}
+.vid{
+width: 20%;
+height: auto;
+}
+
+
+
+
+span {
+color: rgb(43, 42, 29);
+
+}
+.half-last:hover {
+background: rgb(86, 245, 12);
+transition: 3s;
+transform: rotateZ(20deg);
+transition: width 2s  height 2s ;
+}
+
+
+
+footer h3 {
+
+text-align: center;
+box-shadow: rgb(5, 248, 86);
 
 
 }
